@@ -1,33 +1,30 @@
-import BgGlassmorphism from "@/components/BgGlassmorphism";
-import React, { ReactNode } from "react";
-import SectionHeroArchivePage from "../(server-components)/SectionHeroArchivePage";
-import heroRightImage from "@/images/hero-right-car.png";
 import BackgroundSection from "@/components/BackgroundSection";
+import BgGlassmorphism from "@/components/BgGlassmorphism";
+import SectionGridAuthorBox from "@/components/SectionGridAuthorBox";
 import SectionSliderNewCategories from "@/components/SectionSliderNewCategories";
 import SectionSubscribe2 from "@/components/SectionSubscribe2";
-import SectionGridAuthorBox from "@/components/SectionGridAuthorBox";
+import React, { ReactNode } from "react";
+import SectionHeroArchivePage from "@/app/(server-components)/SectionHeroArchivePage";
 
 const Layout = ({ children }: { children: ReactNode }) => {
   return (
-    <div className={`nc-ListingCarMapPage relative `}>
+    <div className={`nc-ListingStayPage relative `}>
       <BgGlassmorphism />
 
       {/* SECTION HERO */}
       <div className="container pt-10 pb-24 lg:pt-16 lg:pb-28">
         <SectionHeroArchivePage
-          rightImage={heroRightImage}
-          currentPage="Cars"
-          currentTab="Cars"
+          currentPage="Experiences"
+          currentTab="Experiences"
           listingType={
             <>
-              <i className="text-2xl las la-car"></i>
-              <span className="ml-2.5">1512 cars</span>
+              <i className="text-2xl las la-umbrella-beach"></i>
+              <span className="ml-2.5">1599 experiences</span>
             </>
           }
         />
       </div>
 
-      {/* SECTION */}
       {children}
 
       <div className="container overflow-hidden">

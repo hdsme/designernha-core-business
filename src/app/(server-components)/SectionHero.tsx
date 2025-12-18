@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import imagePng from "@/images/hero-right.png";
-import HeroSearchForm from "../(client-components)/(HeroSearchForm)/HeroSearchForm";
+import HeroSearchForm from "@/app/(client-components)/(HeroSearchForm)/HeroSearchForm";
 import Image from "next/image";
 import ButtonPrimary from "@/shared/ButtonPrimary";
 
@@ -22,7 +22,7 @@ const SectionHero: FC<SectionHeroProps> = ({ className = "" }) => {
             Accompanying us, you have a trip full of experiences. With Chisfis,
             booking accommodation, resort villas, hotels
           </span>
-          <ButtonPrimary href="/listing-stay-map" sizeClass="px-5 py-4 sm:px-7">
+          <ButtonPrimary href="/stay/listing-stay-map" sizeClass="px-5 py-4 sm:px-7">
             Start your search
           </ButtonPrimary>
         </div>
