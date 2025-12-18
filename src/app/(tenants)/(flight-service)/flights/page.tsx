@@ -3,7 +3,7 @@ import BgGlassmorphism from "@/components/BgGlassmorphism";
 import SectionSliderNewCategories from "@/components/SectionSliderNewCategories";
 import SectionSubscribe2 from "@/components/SectionSubscribe2";
 import React, { FC } from "react";
-import SectionGridFilterCard from "../SectionGridFilterCard";
+import SectionGridFilterCard from "./SectionGridFilterCard";
 
 export interface ListingFlightsPageProps {}
 

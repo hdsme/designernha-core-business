@@ -20,7 +20,7 @@ export interface GuestsInputProps {
 const GuestsInput: FC<GuestsInputProps> = ({
   fieldClassName = "[ nc-hero-field-padding ]",
   className = "[ nc-flex-1 ]",
-  buttonSubmitHref = "/stay/listing-stay-map",
+  buttonSubmitHref = "/stay/map",
   hasButtonSubmit = true,
 }) => {
   const [guestAdultsInputValue, setGuestAdultsInputValue] = useState(2);

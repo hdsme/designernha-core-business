@@ -39,9 +39,9 @@ const SiteHeader = () => {
   let [headers] = useState<SiteHeaders[]>(["Header 1", "Header 2", "Header 3"]);
 
   let [homePages] = useState<HomePageItem[]>([
-    { name: "Travel", slug: "/" },
-    { name: "Real Estate", slug: "/home-2" },
-    { name: "Booking", slug: "/home-3" },
+    { name: "Flights", slug: "/flights" },
+    { name: "Property", slug: "/property" },
+    { name: "Car", slug: "/car" },
   ]);
   const [headerSelected, setHeaderSelected] = useState<SiteHeaders>("Header 2");
 

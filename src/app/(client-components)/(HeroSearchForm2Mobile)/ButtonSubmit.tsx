@@ -9,7 +9,7 @@ interface Props {
 const ButtonSubmit: FC<Props> = ({
   className = "",
   onClick = () => {},
-  href = "/stay/listing-stay",
+  href = "/stay",
 }) => {
   return (
     <button

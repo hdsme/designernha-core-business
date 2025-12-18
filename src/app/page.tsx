@@ -17,7 +17,7 @@ import SectionClientSay from "@/components/SectionClientSay";
 const DEMO_CATS: TaxonomyType[] = [
   {
     id: "1",
-    href: "/stay/listing-stay-map",
+    href: "/stay/map",
     name: "New Yourk",
     taxonomy: "category",
     count: 188288,
@@ -26,7 +26,7 @@ const DEMO_CATS: TaxonomyType[] = [
   },
   {
     id: "2",
-    href: "/stay/listing-stay-map",
+    href: "/stay/map",
     name: "Singapore",
     taxonomy: "category",
     count: 188288,
@@ -35,7 +35,7 @@ const DEMO_CATS: TaxonomyType[] = [
   },
   {
     id: "3",
-    href: "/stay/listing-stay-map",
+    href: "/stay/map",
     name: "Paris",
     taxonomy: "category",
     count: 188288,
@@ -44,7 +44,7 @@ const DEMO_CATS: TaxonomyType[] = [
   },
   {
     id: "4",
-    href: "/stay/listing-stay-map",
+    href: "/stay/map",
     name: "London",
     taxonomy: "category",
     count: 188288,
@@ -53,7 +53,7 @@ const DEMO_CATS: TaxonomyType[] = [
   },
   {
     id: "5",
-    href: "/stay/listing-stay-map",
+    href: "/stay/map",
     name: "Tokyo",
     taxonomy: "category",
     count: 188288,
@@ -62,7 +62,7 @@ const DEMO_CATS: TaxonomyType[] = [
   },
   {
     id: "6",
-    href: "/stay/listing-stay-map",
+    href: "/stay/map",
     name: "Maldives",
     taxonomy: "category",
     count: 188288,
@@ -71,7 +71,7 @@ const DEMO_CATS: TaxonomyType[] = [
   },
   {
     id: "7",
-    href: "/stay/listing-stay-map",
+    href: "/stay/map",
     name: "Italy",
     taxonomy: "category",
     count: 188288,
@@ -83,7 +83,7 @@ const DEMO_CATS: TaxonomyType[] = [
 const DEMO_CATS_2: TaxonomyType[] = [
   {
     id: "1",
-    href: "/stay/listing-stay-map",
+    href: "/stay/map",
     name: "Enjoy the great cold",
     taxonomy: "category",
     count: 188288,
@@ -92,7 +92,7 @@ const DEMO_CATS_2: TaxonomyType[] = [
   },
   {
     id: "2",
-    href: "/stay/listing-stay-map",
+    href: "/stay/map",
     name: "Sleep in a floating way",
     taxonomy: "category",
     count: 188288,
@@ -101,7 +101,7 @@ const DEMO_CATS_2: TaxonomyType[] = [
   },
   {
     id: "3",
-    href: "/stay/listing-stay-map",
+    href: "/stay/map",
     name: "In the billionaire's house",
     taxonomy: "category",
     count: 188288,
@@ -110,7 +110,7 @@ const DEMO_CATS_2: TaxonomyType[] = [
   },
   {
     id: "4",
-    href: "/stay/listing-stay-map",
+    href: "/stay/map",
     name: "Cool in the deep forest",
     taxonomy: "category",
     count: 188288,
@@ -119,7 +119,7 @@ const DEMO_CATS_2: TaxonomyType[] = [
   },
   {
     id: "5",
-    href: "/stay/listing-stay-map",
+    href: "/stay/map",
     name: "In the billionaire's house",
     taxonomy: "category",
     count: 188288,
@@ -128,7 +128,7 @@ const DEMO_CATS_2: TaxonomyType[] = [
   },
   {
     id: "6",
-    href: "/stay/listing-stay-map",
+    href: "/stay/map",
     name: "In the billionaire's house",
     taxonomy: "category",
     count: 188288,
@@ -137,7 +137,7 @@ const DEMO_CATS_2: TaxonomyType[] = [
   },
   {
     id: "7",
-    href: "/stay/listing-stay-map",
+    href: "/stay/map",
     name: "Cool in the deep forest",
     taxonomy: "category",
     count: 188288,

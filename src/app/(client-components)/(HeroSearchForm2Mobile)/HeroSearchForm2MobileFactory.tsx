@@ -8,8 +8,8 @@ import { usePathname } from "next/navigation";
 
 const PAGES_REAL_ESTATE: PathName[] = [
   "/home-2",
-  "/property/listing-real-estate",
-  "/property/listing-real-estate-map",
+  "/property",
+  "/property/map",
 ];
 
 const HeroSearchForm2MobileFactory = () => {
